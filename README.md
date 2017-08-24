@@ -27,8 +27,8 @@ In order to extend the detected lane lines from bottom to top of lane in the ima
 
 * Define 2 lists to store points: list_1 and list_2
 * For each line segment:
-    ```Calculate length and slope of segment using point1 and point2
-        If length > 5 pixels and slope > 0
+       `Calculate length and slope of segment using point1 and point2`
+        ```If length > 5 pixels and slope > 0
       `    if x-coordinate of point1 > 0.5* width_image
             add point1 to list1
           if x-coordinate of point2 > 0.5* width_image
