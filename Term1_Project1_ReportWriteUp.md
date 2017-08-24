@@ -51,14 +51,14 @@ Some results of running on test images are available below:
 ![SolidYellowCurve][image2]
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2.Potential shortcomings with current pipeline
 I can identify shortcomings in the current pipeline:
 * This will not work well when the road and hence lane lines have high curvature since I am fitting 1st degree polynomial to 
 * There will potentially be problems with detecting fading lane lines
 * There will potentially be problems when parts of lane lines are occluded by some object
 * There will be problems when the ambient light conditions are not appropriate  
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible improvements to current pipeline
 
 Some improvements to the current pipe line will be
 * In draw_lines() function, a 2nd degree polynomial can be fit to make the pipeline robust to high curvature roads
