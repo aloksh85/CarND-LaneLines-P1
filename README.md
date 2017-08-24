@@ -10,6 +10,7 @@ The goals of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./test_images_output/solidWhiteCurve.jpg
+[image2]: ./test_images_output/solidYellowCurve.jpg
 
 ---
 
@@ -28,7 +29,7 @@ In order to extend the detected lane lines from bottom to top of lane in the ima
 * Define 2 lists to store points: list_1 and list_2
 * For each line segment:
        `Calculate length and slope of segment using point1 and point2`
-        ```If length > 5 pixels and slope > 0
+        If length > 5 pixels and slope > 0
       `    if x-coordinate of point1 > 0.5* width_image
             add point1 to list1
           if x-coordinate of point2 > 0.5* width_image
@@ -37,13 +38,14 @@ In order to extend the detected lane lines from bottom to top of lane in the ima
           if x-coordinate of point1 < 0.5* width_image 
             add point1 to list2
           if x-coordinate of point2 < 0.5* width_image
-            add point2 to list2```
-  Fit a polynomial of 1-degree to list1 and list2 using numpy's polyfit 
-  Using the polynomial co-efficients, find coordinates of two end points of lane lines
+            add point2 to list2
+        Fit a polynomial of 1-degree to list1 and list2 using numpy's polyfit 
+        Using the polynomial co-efficients, find coordinates of two end points of lane lines
  
- The results of running on test images are available below:
+Some results of running on test images are available below:
 
-![alt text][image1]
+![SolidWhiteCurve][image1]
+![SolidYellowCurve][image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
