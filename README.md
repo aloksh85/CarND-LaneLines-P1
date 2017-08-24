@@ -52,19 +52,3 @@ Some results of running on test images are available below:
 ![SolidWhiteCurve][image1]
 ![SolidYellowCurve][image2]
 
-
-### 2. Identify potential shortcomings with your current pipeline
-I can identify shortcomings in the current pipeline:
-     * This will not work well when the road and hence lane lines have high curvature since I am fitting 1st degree polynomial
-     * There will potentially be problems with detecting fading lane lines
-     * There will potentially be problems when parts of lane lines are occluded by some object
-     * There will be problems when the ambient light conditions are not appropriate
-     
-
-### 3. Suggest possible improvements to your pipeline
-
-Some improvements to the current pipe line will be
-* 
-
-Another potential improvement could be to ...
-
