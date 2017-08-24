@@ -1,5 +1,6 @@
 
-This is my solution to the CarND-term1 Project1
+**This is my solution to the CarND-term1 Project1**
+
 **Finding Lane Lines on the Road**
 
 The goals of this project are the following:
